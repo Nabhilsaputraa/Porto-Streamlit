@@ -8,12 +8,7 @@ from dotenv import load_dotenv
 import os
 
 #! config 
-st.set_page_config(
-    layout="wide",
-    page_title="Gilang Nabhil - Portfolio & House Price Prediction",
-    initial_sidebar_state="collapsed",
-    page_icon="🏊"
-)
+st.set_page_config( layout="wide", page_title="Gilang Nabhil - Portfolio", initial_sidebar_state="collapsed")
 
 #! Api
 load_dotenv()
